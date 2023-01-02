@@ -69,4 +69,5 @@ useEffect와 useLayoutEffect는 그 코드의 실행이 동기적이냐 비동�
 ---
 
 [출처](https://kentcdodds.com/blog/useeffect-vs-uselayouteffect)
+
 [사진 출처](https://pubudu2013101.medium.com/what-is-the-real-difference-between-react-useeffect-and-uselayouteffect-51723096dc19)
