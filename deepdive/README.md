@@ -4,3 +4,4 @@
 - start date : 2023-01-02
 
 ## Index
+#### [1 - 5장](https://github.com/yujiseok/til/tree/main/deepdive/ch.1-5)
