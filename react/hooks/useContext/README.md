@@ -1,4 +1,4 @@
-# useContext
+**TOC**
 
 - [useContext](#usecontext)
   - [Context](#context)
@@ -10,6 +10,10 @@
       - [일반적인 사용법](#일반적인-사용법)
       - [Custom Hook으로 사용하는 법](#custom-hook으로-사용하는-법)
   - [TL;DR](#tldr)
+
+# useContext
+
+[useContext](https://beta.reactjs.org/reference/react/useContext)는 리액트의 상태를 관리하는 훅으로 context를 읽고 구독할 수 있게 해준다.
 
 ## Context
 
