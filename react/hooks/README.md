@@ -2,6 +2,8 @@
 
 ## Hooks
 
-#### [useLayoutEffect](https://github.com/yujiseok/til/tree/main/react/hooks/useLayoutEffect)
+[useLayoutEffect](https://github.com/yujiseok/til/tree/main/react/hooks/useLayoutEffect)
 
-#### [useContext](https://github.com/yujiseok/til/tree/main/react/hooks/useContext)
+[useContext](https://github.com/yujiseok/til/tree/main/react/hooks/useContext)
+
+[useReducer](https://github.com/yujiseok/til/tree/main/react/hooks/useReducer)
