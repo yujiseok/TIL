@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+import { useReducer, useState } from "react";
 
 const ACTION_TYPE = {
   INCREMENT: "increment",
@@ -10,6 +10,7 @@ const ACTION_TYPE = {
 const initialState = { count: 0 };
 
 const reducer = (state, action) => {
+  console.log(action);
   switch (action.type) {
     case ACTION_TYPE.INCREMENT:
       return { ...state, count: state.count + 1 };
@@ -27,6 +28,7 @@ const reducer = (state, action) => {
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
+  const [val, setVal] = useState(0);
 
   return (
     <div className="App">
@@ -42,9 +44,18 @@ function App() {
       <button onClick={() => dispatch({ type: ACTION_TYPE.DECREMENT })}>
         -
       </button>
+      <input
+        type="number"
+        value={val}
+        onChange={(e) => setVal(e.target.value)}
+      />
+
       <button
         onClick={() =>
-          dispatch({ type: ACTION_TYPE.INCREMENTWITHVALUE, payload: 5 })
+          dispatch({
+            type: ACTION_TYPE.INCREMENTWITHVALUE,
+            payload: Number(val),
+          })
         }
       >
         + with value
